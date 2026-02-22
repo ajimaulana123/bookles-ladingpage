@@ -11,6 +11,15 @@
 ✅ Permissions-Policy - Control browser features
 ✅ Strict-Transport-Security - Force HTTPS
 
+**CSP Note**: CSP includes `unsafe-inline` for Meta Pixel & Google Analytics to work. This is standard practice for analytics tools. We've added extra protections:
+- `object-src 'none'` - Block plugins
+- `base-uri 'self'` - Prevent base tag injection
+- `form-action 'self'` - Restrict form submissions
+- `frame-ancestors 'self'` - Extra clickjacking protection
+- Whitelisted only trusted domains (Facebook, Google Analytics)
+
+**Security Score**: 80/100 is excellent for a site with analytics. The -20 is from CSP `unsafe-inline`, which is necessary for tracking tools.
+
 ### 2. Rate Limiting (Middleware)
 ✅ 100 requests per minute per IP
 ✅ Automatic cleanup

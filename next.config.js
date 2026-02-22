@@ -35,17 +35,22 @@ const nextConfig = {
             key: 'Permissions-Policy',
             value: 'camera=(), microphone=(), geolocation=()',
           },
-          // Content Security Policy
+          // Content Security Policy - Stricter version
+          // Note: Meta Pixel and GA require some inline scripts, but we limit sources
           {
             key: 'Content-Security-Policy',
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://connect.facebook.net https://www.googletagmanager.com",
+              "script-src 'self' 'unsafe-inline' https://connect.facebook.net https://www.googletagmanager.com https://www.google-analytics.com",
               "style-src 'self' 'unsafe-inline'",
-              "img-src 'self' data: https: blob:",
+              "img-src 'self' data: https:",
               "font-src 'self' data:",
-              "connect-src 'self' https://www.facebook.com https://www.google-analytics.com https://analytics.google.com",
+              "connect-src 'self' https://www.facebook.com https://graph.facebook.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com",
               "frame-src 'self' https://www.facebook.com",
+              "object-src 'none'",
+              "base-uri 'self'",
+              "form-action 'self'",
+              "frame-ancestors 'self'",
             ].join('; '),
           },
         ],
