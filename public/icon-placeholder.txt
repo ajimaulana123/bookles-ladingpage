@@ -1,0 +1,31 @@
+PLACEHOLDER UNTUK ICON/LOGO
+
+Untuk PWA manifest, Anda perlu membuat 2 file icon:
+
+1. icon-192.png (192x192 pixels)
+2. icon-512.png (512x512 pixels)
+
+Simpan file-file ini di folder public/
+
+Cara membuat icon:
+1. Buat logo ELFAN SYSTEM dengan background hijau (#22c55e)
+2. Export dalam ukuran 192x192 dan 512x512
+3. Format: PNG dengan background solid (tidak transparan untuk PWA)
+4. Simpan sebagai:
+   - public/icon-192.png
+   - public/icon-512.png
+
+Tools yang bisa digunakan:
+- Canva (online, gratis)
+- Figma (online, gratis)
+- Adobe Photoshop
+- GIMP (gratis)
+
+Atau gunakan generator online:
+- https://realfavicongenerator.net/
+- https://favicon.io/
+
+Desain rekomendasi:
+- Background: Green (#22c55e)
+- Text: Huruf "E" putih, bold
+- Atau: Logo ELFAN lengkap jika muat
