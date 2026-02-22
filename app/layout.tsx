@@ -1,12 +1,21 @@
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import MetaPixel from "@/components/MetaPixel"
+import GoogleAnalytics from "@/components/GoogleAnalytics"
 import { Suspense } from "react"
 
 const inter = Inter({ subsets: ["latin"] })
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#16a34a',
+}
+
 export const metadata: Metadata = {
+  metadataBase: new URL('https://bookles-ladingpage.vercel.app'),
   title: "Perpustakaan Digital Offline 10,000+ Buku | ELFAN System",
   description: "Perpustakaan digital Islami 10,000+ buku tanpa kuota internet. Hemat 70% biaya operasional. Sistem intranet untuk sekolah, masjid & pesantren. Konsultasi gratis!",
   keywords: [
@@ -24,18 +33,38 @@ export const metadata: Metadata = {
     "Perpustakaan Digital Indonesia",
   ],
   authors: [{ name: "Alwustho Technologies" }],
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+    ],
+  },
+  manifest: '/manifest.json',
   openGraph: {
     title: "ELFAN System - Perpustakaan Digital Islami Tanpa Kuota",
     description: "10,000+ koleksi buku digital Islami. Hemat 70% biaya operasional. Tanpa kuota internet. Solusi untuk sekolah, masjid, dan pesantren.",
-    url: "https://www.elfanbookless.com",
+    url: "https://bookles-ladingpage.vercel.app",
     siteName: "ELFAN SYSTEM",
     locale: "id_ID",
     type: "website",
+    images: [
+      {
+        url: '/logo-elfan.png',
+        width: 1200,
+        height: 630,
+        alt: 'ELFAN System - Perpustakaan Digital Islami',
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ELFAN System - Perpustakaan Digital Islami",
     description: "10,000+ buku digital tanpa kuota internet. Hemat 70% biaya operasional.",
+    images: ['/logo-elfan.png'],
   },
   robots: {
     index: true,
@@ -54,13 +83,13 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.elfanbookless.com/#organization",
+        "@id": "https://bookles-ladingpage.vercel.app/#organization",
         "name": "Alwustho Technologies",
         "alternateName": "ELFAN SYSTEM",
-        "url": "https://www.elfanbookless.com",
+        "url": "https://bookles-ladingpage.vercel.app",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.elfanbookless.com/logo-elfan.png"
+          "url": "https://bookles-ladingpage.vercel.app/logo-elfan.png"
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -76,9 +105,9 @@ export default function RootLayout({
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.elfanbookless.com/#localbusiness",
+        "@id": "https://bookles-ladingpage.vercel.app/#localbusiness",
         "name": "ELFAN SYSTEM - Perpustakaan Digital Islami",
-        "image": "https://www.elfanbookless.com/logo-elfan.png",
+        "image": "https://bookles-ladingpage.vercel.app/logo-elfan.png",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Kompleks Masjid Al-Muhtadin, Jl Semenromo, Gg Melon",
@@ -108,7 +137,7 @@ export default function RootLayout({
       },
       {
         "@type": "Product",
-        "@id": "https://www.elfanbookless.com/#product",
+        "@id": "https://bookles-ladingpage.vercel.app/#product",
         "name": "ELFAN System - Perpustakaan Digital Offline",
         "description": "Sistem perpustakaan digital Islami dengan 10,000+ koleksi buku tanpa memerlukan koneksi internet. Hemat 70% biaya operasional.",
         "brand": {
@@ -128,16 +157,16 @@ export default function RootLayout({
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.elfanbookless.com/#website",
-        "url": "https://www.elfanbookless.com",
+        "@id": "https://bookles-ladingpage.vercel.app/#website",
+        "url": "https://bookles-ladingpage.vercel.app",
         "name": "ELFAN SYSTEM",
         "description": "Perpustakaan Digital Islami Offline",
         "publisher": {
-          "@id": "https://www.elfanbookless.com/#organization"
+          "@id": "https://bookles-ladingpage.vercel.app/#organization"
         },
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://www.elfanbookless.com/?s={search_term_string}",
+          "target": "https://bookles-ladingpage.vercel.app/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       }
@@ -155,6 +184,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Suspense fallback={null}>
           <MetaPixel />
+          <GoogleAnalytics />
         </Suspense>
         {children}
       </body>

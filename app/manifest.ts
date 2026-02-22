@@ -2,13 +2,14 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'ELFAN SYSTEM - Perpustakaan Digital Islami',
-    short_name: 'ELFAN SYSTEM',
-    description: 'Islamic Digital Education Platform - Bookless Library System untuk Smart City Indonesia',
+    name: 'ELFAN System - Perpustakaan Digital Islami',
+    short_name: 'ELFAN System',
+    description: 'Perpustakaan digital Islami 10,000+ buku tanpa kuota internet. Hemat 70% biaya operasional. Sistem intranet untuk sekolah, masjid & pesantren.',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
-    theme_color: '#22c55e',
+    theme_color: '#16a34a',
+    orientation: 'portrait-primary',
     icons: [
       {
         src: '/icon-192.png',

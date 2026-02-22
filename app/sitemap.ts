@@ -1,36 +1,44 @@
 import { MetadataRoute } from 'next'
 
+const baseUrl = 'https://bookles-ladingpage.vercel.app';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://www.elfanbookless.com',
+      url: baseUrl,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
     },
     {
-      url: 'https://www.elfanbookless.com/produk',
+      url: `${baseUrl}/produk`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: 'https://www.elfanbookless.com/harga',
+      url: `${baseUrl}/harga`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: 'https://www.elfanbookless.com/portfolio',
+      url: `${baseUrl}/portfolio`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://www.elfanbookless.com/klien',
+      url: `${baseUrl}/klien`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/kontak`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
   ]
 }

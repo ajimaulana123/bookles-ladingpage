@@ -11,11 +11,11 @@ export function HeroSection() {
           <div className="text-center mb-16 max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
               10,000+ Kitab Digital Tanpa Kuota Internet{" "}
-              <span className="text-green-600">Akses Kapan Saja, Di Mana Saja</span>
+              <span className="text-green-600">Akses di Area Institusi Anda</span>
             </h1>
             <p className="text-xl text-slate-600 leading-relaxed mb-8">
               Sistem perpustakaan digital offline dengan koleksi lengkap buku Islami dan umum. 
-              Tanpa biaya internet bulanan, tanpa gedung khusus, tanpa perawatan rumit. 
+              Akses via WiFi lokal di sekolah, masjid, atau pesantren Anda - tanpa biaya internet bulanan. 
               <span className="font-semibold text-slate-900"> Investasi sekali, manfaat selamanya.</span>
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
@@ -24,7 +24,7 @@ export function HeroSection() {
                   Dapatkan Demo Gratis Sekarang →
                 </Button>
               </a>
-              <a href="#specs">
+              <a href="/harga">
                 <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-full border-2">
                   Lihat Harga & Paket
                 </Button>

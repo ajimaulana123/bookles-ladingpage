@@ -14,7 +14,7 @@ export function CollectionSection() {
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
               10,000+ judul buku digital, kitab kuning, e-jurnal, dan media edukasi. 
-              Dilengkapi Smart Search untuk kemudahan pencarian. Akses tanpa internet, kapan saja, di mana saja.
+              Dilengkapi Smart Search untuk kemudahan pencarian. Akses via WiFi lokal tanpa kuota internet.
             </p>
           </div>
 

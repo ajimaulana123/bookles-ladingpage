@@ -66,7 +66,7 @@ export function ProductUseCases() {
       results: [
         "Literasi masyarakat meningkat",
         "Hemat biaya pembangunan gedung",
-        "Akses perpustakaan di mana saja",
+        "Akses perpustakaan di area publik",
         "Mendukung program Smart City",
       ],
       color: "purple",
