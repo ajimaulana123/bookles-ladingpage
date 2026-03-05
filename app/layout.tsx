@@ -15,7 +15,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://bookles-ladingpage.vercel.app'),
+  metadataBase: new URL('https://elfanbookless.com'),
   title: "Perpustakaan Digital Offline 10,000+ Buku | ELFAN System",
   description: "Perpustakaan digital Islami 10,000+ buku tanpa kuota internet. Hemat 70% biaya operasional. Sistem intranet untuk sekolah, masjid & pesantren. Konsultasi gratis!",
   keywords: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ELFAN System - Perpustakaan Digital Islami Tanpa Kuota",
     description: "10,000+ koleksi buku digital Islami. Hemat 70% biaya operasional. Tanpa kuota internet. Solusi untuk sekolah, masjid, dan pesantren.",
-    url: "https://bookles-ladingpage.vercel.app",
+    url: "https://elfanbookless.com",
     siteName: "ELFAN SYSTEM",
     locale: "id_ID",
     type: "website",
@@ -83,13 +83,13 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://bookles-ladingpage.vercel.app/#organization",
+        "@id": "https://elfanbookless.com/#organization",
         "name": "Alwustho Technologies",
         "alternateName": "ELFAN SYSTEM",
-        "url": "https://bookles-ladingpage.vercel.app",
+        "url": "https://elfanbookless.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://bookles-ladingpage.vercel.app/logo-elfan.png"
+          "url": "https://elfanbookless.com/logo-elfan.png"
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -105,9 +105,9 @@ export default function RootLayout({
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://bookles-ladingpage.vercel.app/#localbusiness",
+        "@id": "https://elfanbookless.com/#localbusiness",
         "name": "ELFAN SYSTEM - Perpustakaan Digital Islami",
-        "image": "https://bookles-ladingpage.vercel.app/logo-elfan.png",
+        "image": "https://elfanbookless.com/logo-elfan.png",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Kompleks Masjid Al-Muhtadin, Jl Semenromo, Gg Melon",
@@ -137,7 +137,7 @@ export default function RootLayout({
       },
       {
         "@type": "Product",
-        "@id": "https://bookles-ladingpage.vercel.app/#product",
+        "@id": "https://elfanbookless.com/#product",
         "name": "ELFAN System - Perpustakaan Digital Offline",
         "description": "Sistem perpustakaan digital Islami dengan 10,000+ koleksi buku tanpa memerlukan koneksi internet. Hemat 70% biaya operasional.",
         "brand": {
@@ -157,16 +157,16 @@ export default function RootLayout({
       },
       {
         "@type": "WebSite",
-        "@id": "https://bookles-ladingpage.vercel.app/#website",
-        "url": "https://bookles-ladingpage.vercel.app",
+        "@id": "https://elfanbookless.com/#website",
+        "url": "https://elfanbookless.com",
         "name": "ELFAN SYSTEM",
         "description": "Perpustakaan Digital Islami Offline",
         "publisher": {
-          "@id": "https://bookles-ladingpage.vercel.app/#organization"
+          "@id": "https://elfanbookless.com/#organization"
         },
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://bookles-ladingpage.vercel.app/?s={search_term_string}",
+          "target": "https://elfanbookless.com/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       }

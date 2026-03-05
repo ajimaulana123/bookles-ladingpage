@@ -46,7 +46,7 @@ const nextConfig = {
               "img-src 'self' data: https:",
               "font-src 'self' data:",
               "connect-src 'self' https://www.facebook.com https://graph.facebook.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com",
-              "frame-src 'self' https://www.facebook.com",
+              "frame-src 'self' https://www.facebook.com https://www.google.com",
               "object-src 'none'",
               "base-uri 'self'",
               "form-action 'self'",

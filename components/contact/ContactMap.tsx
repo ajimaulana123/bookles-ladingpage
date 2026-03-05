@@ -1,8 +1,9 @@
 export function ContactMap() {
-  // Koordinat Kampung IT Solo, Sukoharjo (approximate)
-  // Kompleks Masjid Al-Muhtadin, Jl Semenromo, Gg Melon, Sukoharjo
-  const mapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0!2d110.8!3d-7.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMzYnMDAuMCJTIDExMMKwNDgnMDAuMCJF!5e0!3m2!1sen!2sid!4v1234567890"
-
+  // Koordinat REAL: Gg. Melon Jl. Semen Romo Cemani No.09, Sukoharjo
+  // Latitude: -7.5862262, Longitude: 110.8115104
+  // Alamat: Alwustho Technologies - Kompleks Masjid Al-Muhtadin, Jl Semenromo, Gg Melon, Sukoharjo
+  const mapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.3!2d110.8115104!3d-7.5862262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a16745a2b0ef5%3A0x55092510cf17b957!2sGg.%20Melon%20Jl.%20Semen%20Romo%20Cemani%20No.09!5e0!3m2!1sen!2sid!4v1709638800000!5m2!1sen!2sid"
+  
   return (
     <section id="map" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
@@ -27,10 +28,10 @@ export function ContactMap() {
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen
+                allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Lokasi ELFAN System - Kampung IT Solo"
+                title="Lokasi ELFAN System - Alwustho Technologies, Kampung IT Solo, Sukoharjo"
                 className="w-full h-full"
               />
             </div>
@@ -39,9 +40,12 @@ export function ContactMap() {
             <div className="p-6 bg-gradient-to-r from-green-600 to-blue-600 text-white">
               <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-2">Kampung IT Solo</h3>
+                  <h3 className="text-xl font-bold mb-2">Alwustho Technologies - Kampung IT Solo</h3>
                   <p className="text-green-50 mb-1">
-                    Kompleks Masjid Al-Muhtadin, Jl Semenromo, Gg Melon
+                    Gg. Melon, Jl. Semen Romo Cemani No.09
+                  </p>
+                  <p className="text-green-50 mb-1">
+                    Kompleks Masjid Al-Muhtadin
                   </p>
                   <p className="text-green-50">
                     Sukoharjo, Jawa Tengah, Indonesia
@@ -49,7 +53,7 @@ export function ContactMap() {
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
-                    href="https://www.google.com/maps/search/Kampung+IT+Solo+Sukoharjo"
+                    href="https://www.google.com/maps/place/Gg.+Melon+Jl.+Semen+Romo+Cemani+No.09/@-7.5862262,110.8115104,17z/data=!3m1!4b1!4m6!3m5!1s0x2e7a16745a2b0ef5:0x55092510cf17b957!8m2!3d-7.5862262!4d110.8115104!16s%2Fg%2F11vkgg6rv2"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-white text-green-600 hover:bg-green-50 font-bold rounded-full transition-all flex items-center justify-center gap-2"
@@ -60,7 +64,7 @@ export function ContactMap() {
                     Buka di Google Maps
                   </a>
                   <a
-                    href="https://wa.me/6289604666665?text=Halo%2C%20saya%20ingin%20berkunjung%20ke%20showroom%20Kampung%20IT%20Solo"
+                    href="https://wa.me/6289604666665?text=Halo%2C%20saya%20ingin%20berkunjung%20ke%20Alwustho%20Technologies%20di%20Gg.%20Melon%2C%20Jl.%20Semen%20Romo%20Cemani%20No.09%2C%20Sukoharjo.%20Kapan%20bisa%20berkunjung%3F"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-white/10 backdrop-blur-sm border-2 border-white text-white hover:bg-white/20 font-bold rounded-full transition-all flex items-center justify-center gap-2"

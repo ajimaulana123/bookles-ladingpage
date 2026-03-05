@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { CONTACT } from "@/lib/constants"
 
@@ -10,8 +11,8 @@ export function Footer() {
           {/* Brand Column */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-2xl">E</span>
+              <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-lg">
+                 <Image src="/logo-elfan.png" width="50" height="50" alt="logo elfan" />
               </div>
               <div>
                 <div className="text-2xl font-bold">ELFAN SYSTEM</div>
