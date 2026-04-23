@@ -8,7 +8,7 @@ export function PricingFAQ() {
     },
     {
       question: "Apakah ada biaya bulanan atau biaya tersembunyi?",
-      answer: "Tidak ada biaya bulanan atau biaya tersembunyi. Anda hanya membayar investasi awal untuk hardware dan software. Biaya operasional hanya listrik (Rp 50-100 ribu/bulan) dan optional renewal support setelah masa garansi habis."
+      answer: "Tidak ada biaya bulanan atau biaya tersembunyi. Anda hanya membayar investasi awal untuk hardware dan software. Biaya operasional sangat minimal, hanya untuk listrik server yang setara dengan lampu LED (15-35W)."
     },
     {
       question: "Bagaimana cara pembayarannya? Apakah bisa cicilan?",
@@ -16,15 +16,15 @@ export function PricingFAQ() {
     },
     {
       question: "Berapa lama masa garansi hardware?",
-      answer: "Garansi hardware bervariasi per paket: Basic (1 tahun), Professional (2 tahun), Enterprise (3 tahun). Garansi cover kerusakan hardware dan replacement jika diperlukan. Setelah masa garansi, tersedia extended warranty."
+      answer: "Garansi hardware bervariasi per paket: Paket dengan server second (1 tahun), Paket dengan server baru (2-3 tahun). Garansi cover kerusakan hardware dan replacement jika diperlukan. Setelah masa garansi, tersedia extended warranty."
     },
     {
       question: "Apakah bisa upgrade paket di kemudian hari?",
-      answer: "Ya, Anda bisa upgrade paket kapan saja. Misalnya dari Basic ke Professional, Anda hanya perlu bayar selisih harga dan upgrade hardware. Kami akan bantu proses upgrade tanpa mengganggu operasional."
+      answer: "Ya, Anda bisa upgrade paket kapan saja. Misalnya dari paket 30 user ke 50 user, Anda hanya perlu bayar selisih dan upgrade hardware. Kami akan bantu proses upgrade tanpa mengganggu operasional."
     },
     {
       question: "Apakah harga bisa nego atau ada diskon?",
-      answer: "Harga yang kami tawarkan sudah sangat kompetitif. Namun, kami memberikan diskon khusus untuk: pembelian multiple unit, institusi pendidikan non-profit, dan program pemerintah. Hubungi kami untuk penawaran terbaik."
+      answer: "Harga yang kami tawarkan sudah sangat kompetitif dan terjangkau. Namun, kami memberikan penawaran khusus untuk: pembelian multiple unit, institusi pendidikan non-profit, dan program pemerintah. Hubungi kami untuk penawaran terbaik."
     },
     {
       question: "Apa yang terjadi jika hardware rusak setelah garansi habis?",

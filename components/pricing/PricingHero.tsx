@@ -10,13 +10,13 @@ export function PricingHero() {
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
-            Harga Perpustakaan Digital yang Terjangkau
+            Paket Perpustakaan Digital yang Terjangkau
           </h1>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-slate-600 mb-8 leading-relaxed">
             Investasi sekali, manfaat selamanya. Hemat hingga 70% biaya operasional 
-            dibanding perpustakaan konvensional.
+            dibanding perpustakaan konvensional. Hubungi kami untuk penawaran terbaik!
           </p>
 
           {/* Trust Indicators */}
@@ -61,7 +61,7 @@ export function PricingHero() {
 
           {/* Note */}
           <p className="mt-8 text-sm text-slate-500">
-            💡 Harga dapat disesuaikan dengan kebutuhan institusi Anda. Hubungi kami untuk penawaran khusus.
+            💡 Paket dapat disesuaikan dengan kebutuhan dan budget institusi Anda. Hubungi kami untuk penawaran khusus.
           </p>
         </div>
       </div>

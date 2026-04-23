@@ -57,7 +57,7 @@ export function WhoWeServeSection() {
       icon: "💰",
       title: "Solusi Ekonomis",
       description: "Mengurangi biaya operasional perpustakaan hingga 70% dengan sistem digital yang efisien dan hemat energi",
-      impact: "Hemat Rp 50-100 juta/tahun"
+      impact: "Hemat puluhan juta/tahun"
     },
     {
       icon: "📚",

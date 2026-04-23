@@ -8,9 +8,7 @@ export function PricingTiers() {
       subtitle: "Server Second",
       tagline: "Untuk Sekolah & Pesantren Kecil",
       badge: "BEST VALUE",
-      price: "20",
-      period: "Investasi Sekali (One-Time Payment)",
-      description: "Paket lengkap dengan bonus aplikasi wakaf senilai Rp 88 juta. Total value Rp 108 juta!",
+      description: "Paket lengkap dengan bonus aplikasi wakaf. Cocok untuk institusi kecil dengan budget terbatas.",
       image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
       features: [
         "✅ PC Server Second Like New (Xeon E3 1225 V5, 8GB RAM, 1TB SSD)",
@@ -18,11 +16,11 @@ export function PricingTiers() {
         "✅ Access Point Ubiquiti Long Range (450/867 Mbps)",
         "✅ 10,000+ Koleksi Digital",
         "✅ Support 30 concurrent users",
-        "✅ BONUS: Aplikasi Bookless Library (Rp 33 jt)",
-        "✅ BONUS: Aplikasi Inventaris (Rp 10 jt)",
-        "✅ BONUS: Aplikasi Piket Kebersihan (Rp 10 jt)",
-        "✅ BONUS: Aplikasi ElTube (Rp 20 jt)",
-        "✅ BONUS: Aplikasi Manajemen Productivity (Rp 15 jt)",
+        "✅ BONUS: Aplikasi Bookless Library",
+        "✅ BONUS: Aplikasi Inventaris",
+        "✅ BONUS: Aplikasi Piket Kebersihan",
+        "✅ BONUS: Aplikasi ElTube",
+        "✅ BONUS: Aplikasi Manajemen Productivity",
         "✅ Setup & Instalasi",
         "✅ Training Dasar",
         "✅ Garansi Hardware 1 Tahun",
@@ -31,17 +29,13 @@ export function PricingTiers() {
       notIncluded: [],
       color: "green",
       popular: true,
-      savings: "Hemat 81%",
-      totalValue: "108",
     },
     {
       name: "PAKET 50 USER",
       subtitle: "Server Second",
       tagline: "Untuk Institusi Menengah",
       badge: "SMART HOME",
-      price: "34.5",
-      period: "Investasi Sekali (One-Time Payment)",
-      description: "Upgrade spesifikasi dengan bonus Smart Home Package. Total value Rp 143.5 juta!",
+      description: "Upgrade spesifikasi dengan bonus Smart Home Package untuk institusi menengah.",
       image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
       features: [
         "✅ PC Server Second Like New (Lenovo ThinkServer TS150)",
@@ -51,11 +45,11 @@ export function PricingTiers() {
         "✅ 🏠 BONUS: Smart Home Package (Google Nest, IR Remote, Lampu WiFi)",
         "✅ 10,000+ Koleksi Digital",
         "✅ Support 50 concurrent users",
-        "✅ BONUS: Aplikasi Bookless Library (Rp 54 jt)",
-        "✅ BONUS: Aplikasi Inventaris (Rp 10 jt)",
-        "✅ BONUS: Aplikasi Piket Kebersihan (Rp 10 jt)",
-        "✅ BONUS: Aplikasi ElTube (Rp 20 jt)",
-        "✅ BONUS: Aplikasi Manajemen Productivity (Rp 15 jt)",
+        "✅ BONUS: Aplikasi Bookless Library",
+        "✅ BONUS: Aplikasi Inventaris",
+        "✅ BONUS: Aplikasi Piket Kebersihan",
+        "✅ BONUS: Aplikasi ElTube",
+        "✅ BONUS: Aplikasi Manajemen Productivity",
         "✅ Setup & Instalasi",
         "✅ Training Lengkap (Onsite)",
         "✅ Garansi Hardware 1 Tahun",
@@ -64,17 +58,13 @@ export function PricingTiers() {
       notIncluded: [],
       color: "blue",
       popular: false,
-      savings: "Hemat 76%",
-      totalValue: "143.5",
     },
     {
       name: "PAKET 50 USER",
       subtitle: "Server Baru",
       tagline: "Untuk Institusi Menengah",
       badge: "BRAND NEW",
-      price: "56.5",
-      period: "Investasi Sekali (One-Time Payment)",
-      description: "Server brand new PowerEdge T150 dengan Smart Home. Total value Rp 155 juta!",
+      description: "Server brand new PowerEdge T150 dengan Smart Home untuk performa maksimal.",
       image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80",
       features: [
         "✅ PC Server BARU PowerEdge T150",
@@ -84,11 +74,11 @@ export function PricingTiers() {
         "✅ 🏠 BONUS: Smart Home Package (Google Nest, IR Remote, Lampu WiFi)",
         "✅ 10,000+ Koleksi Digital",
         "✅ Support 50 concurrent users",
-        "✅ BONUS: Aplikasi Bookless Library (Rp 43.5 jt)",
-        "✅ BONUS: Aplikasi Inventaris (Rp 10 jt)",
-        "✅ BONUS: Aplikasi Piket Kebersihan (Rp 10 jt)",
-        "✅ BONUS: Aplikasi ElTube (Rp 20 jt)",
-        "✅ BONUS: Aplikasi Manajemen Productivity (Rp 15 jt)",
+        "✅ BONUS: Aplikasi Bookless Library",
+        "✅ BONUS: Aplikasi Inventaris",
+        "✅ BONUS: Aplikasi Piket Kebersihan",
+        "✅ BONUS: Aplikasi ElTube",
+        "✅ BONUS: Aplikasi Manajemen Productivity",
         "✅ Setup & Instalasi",
         "✅ Training Lengkap (Onsite)",
         "✅ Garansi Hardware 2 Tahun (Brand New)",
@@ -97,17 +87,13 @@ export function PricingTiers() {
       notIncluded: [],
       color: "indigo",
       popular: false,
-      savings: "Hemat 64%",
-      totalValue: "155",
     },
     {
       name: "PAKET 100 USER",
       subtitle: "Server Baru",
       tagline: "Untuk Universitas & Pemerintah",
       badge: "ENTERPRISE",
-      price: "102.5",
-      period: "Investasi Sekali (One-Time Payment)",
-      description: "Server enterprise Dell T440 dengan Smart Home. Total value Rp 253 juta!",
+      description: "Server enterprise Dell T440 dengan Smart Home untuk institusi besar.",
       image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
       features: [
         "✅ PC Server BARU Dell T440 (Enterprise)",
@@ -117,11 +103,11 @@ export function PricingTiers() {
         "✅ 🏠 BONUS: Smart Home Package (Google Nest, IR Remote, Lampu WiFi)",
         "✅ 10,000+ Koleksi Digital",
         "✅ Support 100+ concurrent users",
-        "✅ BONUS: Aplikasi Bookless Library (Rp 96 jt)",
-        "✅ BONUS: Aplikasi Inventaris (Rp 10 jt)",
-        "✅ BONUS: Aplikasi Piket Kebersihan (Rp 10 jt)",
-        "✅ BONUS: Aplikasi ElTube (Rp 20 jt)",
-        "✅ BONUS: Aplikasi Manajemen Productivity (Rp 15 jt)",
+        "✅ BONUS: Aplikasi Bookless Library",
+        "✅ BONUS: Aplikasi Inventaris",
+        "✅ BONUS: Aplikasi Piket Kebersihan",
+        "✅ BONUS: Aplikasi ElTube",
+        "✅ BONUS: Aplikasi Manajemen Productivity",
         "✅ Setup & Instalasi Enterprise",
         "✅ Training Advanced (Onsite + Online)",
         "✅ Garansi Hardware 3 Tahun (Enterprise)",
@@ -131,8 +117,6 @@ export function PricingTiers() {
       notIncluded: [],
       color: "purple",
       popular: false,
-      savings: "Hemat 60%",
-      totalValue: "253",
     },
   ]
 
@@ -144,20 +128,20 @@ export function PricingTiers() {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-              Harga Transparan, Value Maksimal
+              Pilihan Paket Sesuai Kebutuhan
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Semua paket include hardware, software, instalasi, dan training. 
-              Tidak ada biaya bulanan atau biaya tersembunyi. Investasi sekali, manfaat selamanya!
+              Tidak ada biaya bulanan atau biaya tersembunyi. Hubungi kami untuk informasi harga!
             </p>
           </div>
 
           {/* Value Proposition Banner */}
           <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-8 mb-12 text-white text-center">
-            <h3 className="text-3xl font-bold mb-4">🎁 BONUS APLIKASI WAKAF SENILAI Rp 88-151 JUTA!</h3>
+            <h3 className="text-3xl font-bold mb-4">🎁 BONUS APLIKASI WAKAF PREMIUM!</h3>
             <p className="text-xl text-green-100 max-w-3xl mx-auto">
               Setiap paket mendapat GRATIS 5 aplikasi premium: Bookless Library, Inventaris, Piket, ElTube, dan Manajemen Productivity. 
-              Hemat hingga 81% dari total value!
+              Hubungi kami untuk informasi harga dan penawaran khusus!
             </p>
           </div>
 
@@ -195,11 +179,6 @@ export function PricingTiers() {
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                    {tier.savings && (
-                      <div className="absolute bottom-3 left-3 bg-red-600 text-white px-3 py-1 rounded-full font-bold text-xs">
-                        🔥 {tier.savings}
-                      </div>
-                    )}
                   </div>
                 )}
 
@@ -213,19 +192,12 @@ export function PricingTiers() {
                     <p className="text-xs text-slate-600">{tier.tagline}</p>
                   </div>
 
-                  {/* Price */}
+                  {/* Price - Contact for Quote */}
                   <div className="mb-4">
-                    <div className="flex items-baseline gap-1">
-                      <span className="text-xs text-slate-600">Hanya</span>
-                      <span className="text-3xl font-bold text-green-600">Rp {tier.price}</span>
-                      <span className="text-lg text-slate-600">jt</span>
+                    <div className="bg-green-50 border-2 border-green-200 rounded-xl p-4 text-center">
+                      <p className="text-sm font-bold text-green-700 mb-1">💰 Harga Terjangkau</p>
+                      <p className="text-xs text-slate-600">Hubungi kami untuk penawaran terbaik</p>
                     </div>
-                    <p className="text-xs text-slate-500 mt-1">{tier.period}</p>
-                    {tier.totalValue && (
-                      <div className="mt-2 inline-block bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full text-xs font-bold">
-                        💎 Total Value: Rp {tier.totalValue} jt
-                      </div>
-                    )}
                   </div>
 
                   {/* Description */}
@@ -233,7 +205,7 @@ export function PricingTiers() {
 
                   {/* CTA Button */}
                   <a 
-                    href={`https://wa.me/6289604666665?text=Halo%20ELFAN%20System%2C%20saya%20tertarik%20dengan%20${tier.name}%20${tier.subtitle ? tier.subtitle : ''}%20(Rp%20${tier.price}%20juta)`}
+                    href={`https://wa.me/6289604666665?text=Halo%20ELFAN%20System%2C%20saya%20tertarik%20dengan%20${tier.name}%20${tier.subtitle ? tier.subtitle : ''}%20dan%20ingin%20tahu%20harganya`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block mb-4"
@@ -245,7 +217,7 @@ export function PricingTiers() {
                           : 'bg-slate-900 hover:bg-slate-800'
                       } text-white py-4 text-sm font-bold rounded-xl`}
                     >
-                      Pesan Sekarang →
+                      Tanya Harga →
                     </Button>
                   </a>
 

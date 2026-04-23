@@ -4,16 +4,16 @@ export function PricingComparison() {
       aspect: "Investasi Awal",
       conventional: "Rp 500 juta - 2 miliar",
       conventionalDetail: "Gedung, rak, buku fisik, AC, dll",
-      elfan: "Mulai Rp [X] juta",
-      elfanDetail: "Hardware + software + instalasi",
+      elfan: "Investasi Terjangkau",
+      elfanDetail: "Hardware + software + instalasi (Hubungi kami)",
       savings: "Hemat 70-90%"
     },
     {
       aspect: "Biaya Operasional/Tahun",
       conventional: "Rp 50-100 juta",
       conventionalDetail: "Listrik, perawatan, gaji, pembelian buku baru",
-      elfan: "Rp 1-2 juta",
-      elfanDetail: "Listrik minimal (15-35W)",
+      elfan: "Sangat Minimal",
+      elfanDetail: "Hanya listrik server (15-35W, setara lampu LED)",
       savings: "Hemat 95%"
     },
     {
@@ -130,8 +130,8 @@ export function PricingComparison() {
               Hitung ROI Anda Sendiri
             </h3>
             <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">
-              Dengan investasi [X] juta, Anda bisa hemat Rp 50-100 juta per tahun. 
-              ROI tercapai dalam 1-2 tahun pertama!
+              Dengan investasi yang terjangkau, Anda bisa hemat puluhan juta per tahun untuk biaya operasional. 
+              ROI tercapai dalam waktu singkat!
             </p>
             <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">

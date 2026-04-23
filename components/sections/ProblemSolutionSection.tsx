@@ -9,13 +9,13 @@ export function ProblemSolutionSection() {
       icon: "💰",
       title: "Biaya Tinggi",
       description: "Pembangunan perpustakaan konvensional membutuhkan investasi besar untuk gedung, rak, dan pembelian buku fisik yang mahal.",
-      impact: "Rp 500 juta - 2 miliar"
+      impact: "Ratusan juta - miliaran"
     },
     {
       icon: "📦",
       title: "Maintenance Kompleks",
       description: "Perawatan buku fisik, pengelolaan ruang, dan biaya operasional yang terus meningkat setiap tahun.",
-      impact: "Rp 50-100 juta/tahun"
+      impact: "Puluhan juta/tahun"
     },
     {
       icon: "🔍",

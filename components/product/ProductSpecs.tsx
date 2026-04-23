@@ -86,7 +86,7 @@ export function ProductSpecs() {
                   <li>• Mikrotik RB941</li>
                   <li>• 1x Ubiquiti AP</li>
                 </ul>
-                <div className="mt-4 text-green-400 font-bold">Rp 20 juta</div>
+                <div className="mt-4 text-green-400 font-bold">Hubungi Kami</div>
               </div>
               <div className="bg-white/5 rounded-xl p-6">
                 <h4 className="font-bold text-green-400 mb-3">PAKET 50 USER (Second)</h4>
@@ -96,7 +96,7 @@ export function ProductSpecs() {
                   <li>• 8GB RAM, 1TB SSD</li>
                   <li>• Mikrotik RB450</li>
                 </ul>
-                <div className="mt-4 text-green-400 font-bold">Rp 34.5 juta</div>
+                <div className="mt-4 text-green-400 font-bold">Hubungi Kami</div>
               </div>
               <div className="bg-white/5 rounded-xl p-6">
                 <h4 className="font-bold text-green-400 mb-3">PAKET 50 USER (Baru)</h4>
@@ -106,7 +106,7 @@ export function ProductSpecs() {
                   <li>• 8GB RAM, 1TB HDD</li>
                   <li>• 2x Ubiquiti AP</li>
                 </ul>
-                <div className="mt-4 text-green-400 font-bold">Rp 56.5 juta</div>
+                <div className="mt-4 text-green-400 font-bold">Hubungi Kami</div>
               </div>
               <div className="bg-white/5 rounded-xl p-6">
                 <h4 className="font-bold text-green-400 mb-3">PAKET 100 USER</h4>
@@ -116,7 +116,7 @@ export function ProductSpecs() {
                   <li>• 8GB RAM, 1TB HDD</li>
                   <li>• 3x Ubiquiti AP</li>
                 </ul>
-                <div className="mt-4 text-green-400 font-bold">Rp 102.5 juta</div>
+                <div className="mt-4 text-green-400 font-bold">Hubungi Kami</div>
               </div>
             </div>
             <div className="mt-6 text-center">

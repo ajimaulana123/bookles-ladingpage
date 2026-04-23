@@ -16,7 +16,7 @@ export function FAQSection() {
     },
     {
       question: "Berapa biaya operasional per bulan?",
-      answer: "Biaya operasional sangat minimal, hanya biaya listrik sekitar Rp 50,000-100,000/bulan (konsumsi 15-35W). Tidak ada biaya internet, tidak ada biaya langganan bulanan."
+      answer: "Biaya operasional sangat minimal, hanya biaya listrik untuk server yang konsumsinya setara lampu LED (15-35W). Tidak ada biaya internet, tidak ada biaya langganan bulanan."
     },
     {
       question: "Apakah ada garansi dan support?",
